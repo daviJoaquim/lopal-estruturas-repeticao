@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da Adivinhaçã</title>
+</head>
+<body>
+    <script>
+
+        
+    
+        for(encerrar = 2; encerrar >=2; encerrar++){
+        let iniciar = 1;
+        let opção = parseInt(prompt( "Bem-vindo ao Jogo da Adivinhação! Digite 1 para INICIAR ou 2 para ENCERRAR."));
+        if(encerrar == opção){
+            alert("Obrigado por participar");
+            break;
+        }else{
+            if(iniciar == opção){
+                alert("O jogo vai começar!");
+            
+        
+                let numeroPensado2 = 5;
+
+
+        }for(tentativa = 1; tentativa <=3; tentativa ++) {
+              let chute = prompt("Adivinhe um número de 1 a 10");
+            if (chute == numeroPensado2){
+                alert("Parabéns, você acertou!");
+                break;
+            }else{
+                alert("Você errou! Você tem mais " + 
+                        ( 3 - tentativa) + " tentativas.");
+                if(tentativa == 3 ){
+                    document.write("Eu tinha pensado " + numeroPensado2);
+                }
+            }
+        
+            }
+        }
+        }
+
+        
+        
+        
+            
+    </script>
+</body>
+</html>
